@@ -1,6 +1,6 @@
 .App {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: auto;
   grid-template-rows: auto auto auto;
   text-align: center;
 }

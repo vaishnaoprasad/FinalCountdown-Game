@@ -1,0 +1,64 @@
+.App {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  text-align: center;
+}
+
+.App-logo {
+  margin-top: 8px;
+  border-radius: 4px;
+  height: 7vmin;
+  aspect-ratio: 1/1;
+  pointer-events: none;
+}
+
+.App-header {
+  background: #303030;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  font-size: calc(10px + 2vmin);
+  color: #f1f2f3;
+  padding: 1rem;
+  transform: scale(1.1);
+}
+
+.App-header p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+}
+
+.App-header:hover{
+  cursor: crosshair !important;
+  opacity: 97%;
+}
+
+#challenges {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  align-items: stretch;
+  justify-items: stretch;
+}
+
+@media (max-width: 1400px) { 
+  #challenges {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  #challenges {
+    grid-template-columns: 1fr;
+  }
+}

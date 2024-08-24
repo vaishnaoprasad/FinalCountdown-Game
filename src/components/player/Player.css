@@ -1,0 +1,69 @@
+#player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+#player p input, #player p button{
+    font-family: 'Courier New', Courier, monospace !important;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 0;
+    border: none;
+} 
+
+.player-header{
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    color: silver;
+    text-transform: capitalize;
+    white-space: nowrap !important;
+}
+
+.player-name{
+    color: #505050 !important;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+#player h2{
+    color: #ddd;
+    margin: 0;
+    margin-top: 1rem;
+    padding: 0;
+    transform: scale(1.1);
+}
+
+#player p input{
+    border: 2px solid #ddd;
+    background: rgba(255,255,255, 0.80);
+    color: #202020;
+}
+
+#player p button{
+    cursor: pointer;
+    opacity: 80%;
+    background: gainsboro;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;    
+}
+
+#player p button:hover{
+    cursor: pointer;
+    opacity: 80%;
+    color: white;
+    background: black;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;    
+}
+
+#player p button:hover{
+    transform: scale(1.03); 
+}
+
+#player p button:active{
+    transform: scale(1); 
+}
